@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+    color: white;
+}
+
+img {
+    position: absolute;
+    object-fit: cover;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+form p {
+    position: absolute;
+    top: 10%;
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
